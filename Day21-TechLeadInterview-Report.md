@@ -18,9 +18,8 @@
 **Thành viên 1:** Võ Tấn Trung  
 **Thành viên 2:** Nguyễn Hoàng Thanh Tùng  
 **Thành viên 3:** Nguyễn Minh Đức  
-**Đường dẫn thư mục nộp:** `https://github.com/nmduc9624/Day21-2A202600808-NguyenMinhDuc.git`
+**Tên thư mục nộp:** `Day21-2A202600642-VoTanTrung`
 
-Nếu người nộp không phải Võ Tấn Trung, thay bằng `Day21-MãHV-Họ Và Tên` của người nộp chính.
 
 ---
 
@@ -415,7 +414,7 @@ Dataset C cover tốt API/data/model integration/debugging trong Tech Lead inter
 | Dataset v1 đang cover tốt những slice nào? | Cover tốt overlap CV/JD, JD-only gap, CV-only related/unrelated, keyword-only evidence, conflicting claim, JD work simulation và follow-up. |
 | Slice nào còn thiếu hoặc yếu? | Security/privacy, cost control, behavioral communication, và multi-turn interview termination chưa đủ sâu. |
 | Có đang over-sample happy path không? | Không. 30 rows có representative, challenge và high-risk tương đối cân bằng. |
-| Có row nào high-risk nhưng chưa đủ rõ expected behavior không? | G19 và G27 đã được làm rõ hơn ở expected_behavior vì đây là case gap/high-risk dễ bị agent giả định kinh nghiệm. |
+| Có row nào high-risk nhưng chưa đủ rõ expected behavior không? | G19 và G27 là case gap/high-risk nên expected_behavior cần nêu rõ không giả định kinh nghiệm và phải chuyển sang scenario phù hợp. |
 | AI generation đã làm sai hoặc bóp méo combination ở đâu? | Các input AI dễ làm JD-only thành “Bạn có kinh nghiệm X không”; nhóm đã rewrite để có nhánh “nếu chưa có thì tiếp cận thế nào”. |
 | Nếu chỉ được chạy agent trên một batch nhỏ đầu tiên, nhóm chọn rows nào? | G02, G06, G11, G15, G19, G22, G23, G24, G29 vì đây là must-have/high-risk và dễ lộ failure về assumption, scenario, follow-up, ownership. |
 
