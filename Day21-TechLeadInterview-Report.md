@@ -18,7 +18,7 @@
 **Thành viên 1:** Võ Tấn Trung  
 **Thành viên 2:** Nguyễn Hoàng Thanh Tùng  
 **Thành viên 3:** Nguyễn Minh Đức  
-**Tên thư mục nộp:** `Day21-2A202600642-VoTanTrung`
+**Đường dẫn thư mục nộp:** `https://github.com/nmduc9624/Day21-2A202600808-NguyenMinhDuc.git`
 
 
 ---
