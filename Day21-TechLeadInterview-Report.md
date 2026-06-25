@@ -18,7 +18,7 @@
 **Thành viên 1:** Võ Tấn Trung  
 **Thành viên 2:** Nguyễn Hoàng Thanh Tùng  
 **Thành viên 3:** Nguyễn Minh Đức  
-**Thư mục nộp:** `[Day21-2A202600808-NguyenMinhDuc](https://github.com/nmduc9624/Day21-2A202600808-NguyenMinhDuc.git)`
+**Đường dẫn thư mục nộp:** `https://github.com/nmduc9624/Day21-2A202600808-NguyenMinhDuc.git`
 
 Nếu người nộp không phải Võ Tấn Trung, thay bằng `Day21-MãHV-Họ Và Tên` của người nộp chính.
 
